@@ -11,6 +11,7 @@ public class FromBaseSwitchController : MonoBehaviour
 
     public GameObject healWizard;
     public GameObject healWizardHud;
+    public GameObject healButton;
 
     public void IncreaseSwitchCharge(float switchCharge){
         switchAmount += switchCharge;
@@ -25,6 +26,7 @@ public class FromBaseSwitchController : MonoBehaviour
             healWizard.SetActive(true);
             healWizardHud.SetActive(true);
             switchAmount = 0;
+            healButton.SetActive(true);
             SwitchBar.fillAmount = switchAmount / 100f;
         }
     }

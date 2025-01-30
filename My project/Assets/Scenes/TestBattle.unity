@@ -12552,9 +12552,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1583701475}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -2.94, y: 0.19, z: -0}
-  m_LocalScale: {x: 0.3, y: 0.3, z: 0.3}
+  m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: -2.94, y: 0.19, z: 0}
+  m_LocalScale: {x: 0.3, y: 0.30000007, z: 0.30000007}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
@@ -18118,6 +18118,7 @@ MonoBehaviour:
   baseWizardHud: {fileID: 1631488164}
   healWizard: {fileID: 1204214088}
   healWizardHud: {fileID: 1402843059}
+  healButton: {fileID: 921977829}
 --- !u!4 &2079948178
 Transform:
   m_ObjectHideFlags: 0
@@ -18246,5 +18247,5 @@ SceneRoots:
   - {fileID: 1269402822}
   - {fileID: 1337703098}
   - {fileID: 2056033605}
-  - {fileID: 75615622}
   - {fileID: 1583701478}
+  - {fileID: 75615622}
