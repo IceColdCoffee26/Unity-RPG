@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 1cc5b6ea4a8e8fd47bdc1fd30bbe60ed
+guid: 8f9f37b5a7ffc724e93329aace7529ba
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3351364372178338
-    second: SwitchButtonSpriteSheet_0
+      213: -3945538151201558584
+    second: SwitchButtonSprite_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,7 +100,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: SwitchButtonSpriteSheet_0
+      name: SwitchButtonSprite_0
       rect:
         serializedVersion: 2
         x: 0
@@ -115,14 +115,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e5a551da3f714fff0800000000000000
-      internalID: -3351364372178338
+      spriteID: 8cf21e1b4f1ae39c0800000000000000
+      internalID: -3945538151201558584
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SwitchButtonSpriteSheet_1
+      name: SwitchButtonSprite_1
       rect:
         serializedVersion: 2
         x: 50
@@ -137,8 +137,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1809c686dadd6de4185a7a3716e355b6
-      internalID: -266855476
+      spriteID: 306fd683734e61340bf1f2e4f61a1791
+      internalID: 984409103
       vertices: []
       indices: 
       edges: []
@@ -147,7 +147,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 20538014e9b50f941b2b83b2f9dc1cca
+    spriteID: 475799e83637c5a46ad88fc6584f74dd
     internalID: 0
     vertices: []
     indices: 
@@ -157,8 +157,8 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      SwitchButtonSpriteSheet_0: -3351364372178338
-      SwitchButtonSpriteSheet_1: -266855476
+      SwitchButtonSprite_0: -3945538151201558584
+      SwitchButtonSprite_1: 984409103
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
