@@ -15,7 +15,7 @@ public class DevaiMoves : MonoBehaviour
         if(turnScript.currentBattleState == turnScript.possibleBattleStates[1] && canHit == 0){
             hitEffect.EnemyHit();
             transform.position = new Vector3(2.6f,0,0);
-            playerHpController.PlayerTakeDamage(20f);
+            playerHpController.PlayerTakeDamage(10f);
             canHit = 1;
             Invoke("SwitchTurn",0.7f);
         }

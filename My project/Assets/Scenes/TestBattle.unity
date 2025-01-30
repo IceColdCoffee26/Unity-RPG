@@ -7380,7 +7380,7 @@ Transform:
   m_GameObject: {fileID: 1204214088}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.01, y: 0.12, z: 0}
+  m_LocalPosition: {x: -2.89, y: 0, z: 0}
   m_LocalScale: {x: 10, y: 10, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -12734,6 +12734,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerHealthBar: {fileID: 1730252772}
   healthAmount: 100
+  baseWizard: {fileID: 1825220939}
+  healWizard: {fileID: 1204214088}
+  enemyHpController: {fileID: 1730245114}
 --- !u!4 &1730245113
 Transform:
   m_ObjectHideFlags: 0
@@ -12763,6 +12766,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyHealthBar: {fileID: 889033711}
   healthAmount: 100
+  playerHpController: {fileID: 1730245112}
+  devai: {fileID: 1461172216}
 --- !u!1 &1730252770
 GameObject:
   m_ObjectHideFlags: 0
@@ -12797,7 +12802,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -537, y: 258.5}
+  m_AnchoredPosition: {x: -536, y: 258.5}
   m_SizeDelta: {x: 264.4, y: 29.92}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1730252772
@@ -13030,7 +13035,7 @@ Transform:
   m_GameObject: {fileID: 1825220939}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.01, y: 0, z: 0}
+  m_LocalPosition: {x: -2.89, y: 0, z: 0}
   m_LocalScale: {x: 10, y: 10, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
