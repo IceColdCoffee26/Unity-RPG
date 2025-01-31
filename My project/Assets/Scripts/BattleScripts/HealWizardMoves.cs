@@ -32,6 +32,7 @@ public class HealWizardMoves : MonoBehaviour
             transform.position = new Vector3(-2.6f,0,0);
             poisonActiveEffect.Play();
             poisonScript.isPoisonActive = true;
+            fromHealSwitchController.IncreaseSwitchCharge(100f);
             Invoke("SwitchTurn",.7f);
         }
 
