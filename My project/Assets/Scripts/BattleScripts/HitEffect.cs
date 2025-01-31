@@ -6,6 +6,8 @@ public class HitEffect : MonoBehaviour
     public ParticleSystem bloodEffect;
     public ParticleSystem playerBloodEffect;
     public ParticleSystem playerHealEffect;
+
+    public ParticleSystem poisonEffect;
     public void PlayerHit(){
         camAnim.SetTrigger("Shake");
         bloodEffect.Play();
@@ -17,5 +19,10 @@ public class HitEffect : MonoBehaviour
     public void PlayerHealEffect(){
         camAnim.SetTrigger("Shake");
         playerHealEffect.Play();
+    }
+
+    public void PoisonEffect(){
+        camAnim.SetTrigger("Shake");
+        poisonEffect.Play();
     }
 }

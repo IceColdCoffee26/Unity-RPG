@@ -1,3 +1,4 @@
+using System.Diagnostics;
 using UnityEngine;
 
 
@@ -10,7 +11,11 @@ public class HealWizardMoves : MonoBehaviour
     public TurnScript turnScript;
     public GameObject healButton;
 
-     public HitEffect hitEffect;
+    public HitEffect hitEffect;
+
+    public ParticleSystem poisonActiveEffect;
+
+    public PoisonScript poisonScript;
 
     public void Heal(){
         if(turnScript.currentBattleState == turnScript.possibleBattleStates[0]){
@@ -22,7 +27,20 @@ public class HealWizardMoves : MonoBehaviour
         }
     }
 
+    public void Poison(){
+        if(turnScript.currentBattleState == turnScript.possibleBattleStates[0]){
+            transform.position = new Vector3(-2.6f,0,0);
+            poisonActiveEffect.Play();
+            poisonScript.isPoisonActive = true;
+            Invoke("SwitchTurn",.7f);
+        }
+
+    }
+
+    
+
     private void SwitchTurn(){
          turnScript.currentBattleState = turnScript.possibleBattleStates[1];
+        transform.position = new Vector3(-2.89f,0,0);
     }
 }

@@ -3,7 +3,7 @@ using UnityEngine.UI;
 
 public class TurnScript : MonoBehaviour
 {
-    public string[] possibleBattleStates = {"PlayerTurn", "EnemyTurn", "Win", "Lose"};
+    public string[] possibleBattleStates = {"PlayerTurn", "EnemyTurn","PoisonCheck"};
     public string currentBattleState;
     void Start()
     {

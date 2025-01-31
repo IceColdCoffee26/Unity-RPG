@@ -17,13 +17,13 @@ public class DevaiMoves : MonoBehaviour
             transform.position = new Vector3(2.6f,0,0);
             playerHpController.PlayerTakeDamage(10f);
             canHit = 1;
-            Invoke("SwitchTurn",0.7f);
+            Invoke("SwitchTurn",.7f);
         }
     }
 
     void SwitchTurn(){
-        turnScript.currentBattleState = turnScript.possibleBattleStates[0]; 
-                    transform.position = new Vector3(2.89f,0,0);
+        turnScript.currentBattleState = turnScript.possibleBattleStates[2]; 
+        transform.position = new Vector3(2.89f,0,0);
         canHit = 0;  
     }
 }
